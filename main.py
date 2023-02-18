@@ -46,8 +46,8 @@ Frame(sroot,height=516,width=5,bg='black').place(x=520,y=0)
 #chilanka
 Label(sroot,text="Hotel Management System ",font='Timesnewroman 40 ',bg='white',fg='black').place(x=535,y=10)
 Label(sroot,text="Made by -",font='Timesnewroman 40 ',bg='white',fg='black').place(x=535,y=90)
-Label(sroot,text="Shubhank Khare",font='Timesnewroman 40 ',bg='white',fg='grey').place(x=535,y=180)
-Label(sroot,text="Shubhank7673@gmail.com",font='Timesnewroman 40',bg='white',fg='grey').place(x=535,y=270)
+Label(sroot,text="Mohd Amaan",font='Timesnewroman 40 ',bg='white',fg='grey').place(x=535,y=180)
+Label(sroot,text="beingamaan01@gmail.com",font='Timesnewroman 40',bg='white',fg='grey').place(x=535,y=270)
 #Label(sroot,text="9589861196",font='Timesnewroman 40',bg='white',fg='grey').place(x=535,y=450)
 #----------- main project------------------------------------------------------------------------------------------------------------------
 def mainroot():
@@ -57,7 +57,7 @@ def mainroot():
 	root.minsize(width=1080,height=550)
 	root.maxsize(width=1080,height=550)
 	root.configure(bg='white')
-	root.title("Made with love by shubhank")
+	root.title("Made with love by Amaan")
 	#--------------seperator-------------------------------------------------------------------------------------------------------------------
 
 	sep = Frame(height=500,bd=1,relief='sunken',bg='white')
@@ -166,7 +166,7 @@ def mainroot():
 		#b_frame.pack_propagate(False)
 
 	#-----------------------------------------------------------------
-		nl = Label(b_frame,text='Made by Shubhank',fg='black',bg='gray91',font='msserif 8')
+		nl = Label(b_frame,text='Made by Amaan',fg='black',bg='gray91',font='msserif 8')
 		nl.place(x=955,y=310)
 		nl.tkraise()
 
@@ -196,7 +196,7 @@ def mainroot():
 		emp1f.place(x=0,y=0)
 		emp1inf = Frame(b_frame,bg='White',height=122,width=300)
 		Label(emp1inf,text="Manager",bg='white',font='msserif 17 bold').place(x=60,y=0)
-		Label(emp1inf,text="Mr. Shubhank Khare",bg='white',fg="Grey",font='msserif 10').place(x=60,y=37)
+		Label(emp1inf,text="Mr. Mohd Amaan",bg='white',fg="Grey",font='msserif 10').place(x=60,y=37)
 		Label(emp1inf,text="Extention : 025",bg='white',fg="Grey",font='msserif 10').place(x=60,y=59)
 		Label(emp1inf,text="Mail : Manager@hotelname.com",bg='white',fg="Grey",font='msserif 10').place(x=60,y=83)
 		emp1inf.pack_propagate(False)
@@ -291,7 +291,7 @@ def mainroot():
 		b_frame.place(x=0,y=120+6+20+60+11)
 		b_frame.pack_propagate(False)
 		b_frame.tkraise()
-		nl = Label(b_frame,text='Made by Shubhank',fg='black',bg='gray91',font='msserif 8')
+		nl = Label(b_frame,text='Made by Amaan',fg='black',bg='gray91',font='msserif 8')
 		nl.place(x=955,y=310)
 		nl.tkraise()
 
@@ -432,7 +432,7 @@ def mainroot():
 		sidebuttons.window_create("end",window=b19)
 		sidebuttons.insert("end","\n")
 		sidebuttons.window_create("end",window=b20)
-		nl = Label(b_frame,text='Made by Shubhank',fg='black',bg='gray91',font='msserif 8')
+		nl = Label(b_frame,text='Made by Amaan',fg='black',bg='gray91',font='msserif 8')
 		nl.place(x=955,y=310)
 		nl.tkraise()
 	#--------------- payments-----------------------------------------------------------------------------------------------------------------------
@@ -634,7 +634,7 @@ def mainroot():
 		#b_frame.pack_propagate(False)
 	'''
 
-		nl = Label(b_frame,text='Made by Shubhank',fg='black',bg='gray91',font='msserif 8')
+		nl = Label(b_frame,text='Made by Amaan',fg='black',bg='gray91',font='msserif 8')
 		nl.place(x=955,y=310)
 		nl.tkraise()
 
@@ -955,7 +955,7 @@ def mainroot():
 		b_frame.pack_propagate(False)
 		b_frame.tkraise()
 
-		nl = Label(b_frame,text='Made by Shubhank',fg='black',bg='gray91',font='msserif 8')
+		nl = Label(b_frame,text='Made by Amaan',fg='black',bg='gray91',font='msserif 8')
 		nl.place(x=955,y=310)
 		nl.tkraise()
 	#-------------login module----------------------------------------------------------------------------------------------------------------------
