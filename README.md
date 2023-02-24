@@ -1,7 +1,7 @@
 # hotel-management-system
 **Hotel management system is an Tkinter based(Python module) application that can be used by any hotel to :-**
  
--Reserve a room
+-Reserve a roo
 
 -To get the status of room (i.e. available or reserved)
 
